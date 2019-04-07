@@ -34,8 +34,6 @@ public class FifthTask {
                 season = "ENTER A VALID INT!!!!!!!!!!!!!!!!!!!!";
                 break;
         }
-
         System.out.println(season);
     }
-
 }
