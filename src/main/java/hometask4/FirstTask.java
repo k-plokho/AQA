@@ -29,7 +29,5 @@ public class FirstTask {
         else{
             System.out.println("Equals!!!");
         }
-
-
     }
 }
