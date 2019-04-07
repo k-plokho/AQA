@@ -46,6 +46,7 @@ public class TheShawshankRedemption {
             String elementAsString = similarElem.getAttribute("title");
             similar.add(elementAsString);
         }
+        driver.quit();
 
         System.out.println("Title: " + title);
         System.out.println("Year: " + year);
