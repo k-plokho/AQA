@@ -20,6 +20,7 @@ public class Dambo {
         driver.findElement(By.xpath("//div[@class='window-close arcticmodal-close']")).click();
         List<WebElement> notOccupiedList = driver.findElements(By.xpath("//div[@id='hall-scheme-container']//div[@class='seat seat-color1']"));
         List<WebElement> occupiedList = driver.findElements(By.xpath("//div[@class='seat seat-occupied']"));
+        driver.quit();
         float notOccupied = (float) notOccupiedList.size();
         float occupied = (float) occupiedList.size();
         float total = notOccupied + occupied;
