@@ -64,11 +64,5 @@ public class TheShawshankRedemption {
         System.out.println("Total Reviews: " + (userReviews + criticReviews));
         System.out.println("Similar Movies: " + similar.toString().replaceAll("\\[", "")
                 .replaceAll("]", ""));
-
-
-
-
-
-
     }
 }
