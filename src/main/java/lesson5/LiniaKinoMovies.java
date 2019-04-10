@@ -10,7 +10,7 @@ import java.util.List;
 
 public class LiniaKinoMovies {
         public static void main(String[] args) throws InterruptedException {
-            System.setProperty("webdriver.chrome.driver", "/Users/hladka/webDrivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "chromedriver");
             WebDriver driver = new ChromeDriver();
             driver.get("http://liniakino.com/showtimes/aladdin/");
             List<WebElement> moviesElems = driver.findElements(By.cssSelector("ul h1"));

@@ -11,7 +11,7 @@ public class FacebookLogin {
         // disabling Chrome's notification alert
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
-        System.setProperty("webdriver.chrome.driver", "/Users/hladka/webDrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
 
         WebDriver driver = new ChromeDriver(options);
         driver.get("https://www.facebook.com/");

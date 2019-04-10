@@ -12,7 +12,7 @@ import java.util.List;
 
 public class Currency {
     public static void main(String [] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "/Users/hladka/webDrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
         WebDriver driver = new ChromeDriver();
 
         //getting doubles for Privat Bank
