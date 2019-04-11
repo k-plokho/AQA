@@ -20,8 +20,6 @@ public class Akinator {
         driver.findElement(By.xpath("//div[@class='btn-play']")).click();
         Thread.sleep(3000);
 
-        int nextQuestionNumber = 2;
-
         while (5 == driver.findElements(By.xpath("//div[@class='database-selection selector dialog-box']/ul/li")).size()) {
             WebElement question = driver.findElement(By.xpath("//p[@class='question-text']"));
             System.out.println(question.getText());
@@ -50,6 +48,7 @@ public class Akinator {
             }
             WebDriverWait wait = new WebDriverWait(driver, 5);
             wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[@id='div-overlay']/img"))));
+            
         }
         Scanner scanner = new Scanner(System.in);
         System.out.println("...And the result is...");
