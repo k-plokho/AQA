@@ -48,7 +48,7 @@ public class Akinator {
             }
             WebDriverWait wait = new WebDriverWait(driver, 5);
             wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.xpath("//div[@id='div-overlay']/img"))));
-            
+
         }
         Scanner scanner = new Scanner(System.in);
         System.out.println("...And the result is...");

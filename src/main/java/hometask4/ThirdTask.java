@@ -16,10 +16,10 @@ public class ThirdTask {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
         for (int i = 0; i < numbers.size(); i++) {
-            if (numbers.get(i) > max) {
+            if (numbers.get(i) > min) {
                 max = numbers.get(i);
             }
-            else if (numbers.get(i) > min) {
+            else if (numbers.get(i) > max) {
                 min = numbers.get(i);
             }
         }
